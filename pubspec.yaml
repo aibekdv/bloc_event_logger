@@ -1,0 +1,22 @@
+name: bloc_event_logger
+description: A simple and customizable BlocObserver for logging bloc events, state changes, and errors.
+
+version: 0.0.1
+publish_to: "https://pub.dev"
+repository: https://github.com/aibekdv/bloc_event_logger
+issue_tracker: https://github.com/aibekdv/bloc_event_logger/issues
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  bloc_test: ^10.0.0
